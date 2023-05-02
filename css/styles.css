@@ -89,15 +89,40 @@ body {
   letter-spacing: 0.02em;
   line-height: 1.1;
 }
-.top-contact-item:hover,
-.top.contact-item:focus {
-  color: #2196f3;
-}
 .envelope-smartphon{
   fill: #757575;
 }
-.envelope-smartphon:hover, .envelope-smartphon:focus{
+.envelope-plus-contakt:hover .top-contact-item{
   fill: #2196f3;
+  color: #2196f3;
+}
+.envelope-plus-contakt:hover .envelope-smartphon{
+  fill: #2196f3;
+  color: #2196f3;
+}
+.envelope-plus-contakt:focus .top-contact-item{
+  fill: #2196f3;
+  color: #2196f3;
+}
+.envelope-plus-contakt:focus .envelope-smartphon{
+  fill: #2196f3;
+  color: #2196f3;
+}
+.smartphon-plus-contakt:hover .top-contact-item{
+  fill: #2196f3;
+  color: #2196f3;
+}
+.smartphon-plus-contakt:hover .envelope-smartphon{
+  fill: #2196f3;
+  color: #2196f3;
+}
+.smartphon-plus-contakt:focus .top-contact-item{
+  fill: #2196f3;
+  color: #2196f3;
+}
+.smartphon-plus-contakt:focus .envelope-smartphon{
+  fill: #2196f3;
+  color: #2196f3;
 }
 .mainpage-title {
   text-align: center;
@@ -265,16 +290,19 @@ body {
   padding-left: 11px;
   padding-top: 11px;
 }
-.teamcard-icon-item:hover,
-.teamcard-icon-item:focus {
-  border: 1px solid #2196F3;
-  background-color: #2196F3;
+.teamcard-icon-item:hover .icon-teamcard{
+  fill: #FFFFFF;
+}
+.teamcard-icon-item:focus .icon-teamcard{
+  fill: #FFFFFF;
 }
 .icon-teamcard {
   fill: #AFB1B8;
 }
-.icon-teamcard:hover, .icon-teamcard:focus{
-  fill: #FFFFFF;
+.teamcard-icon-item:hover,
+.teamcard-icon-item:focus {
+  border: 1px solid #2196F3;
+  background-color: #2196F3;
 }
 .client-title {
   font-size: 36px;
@@ -301,16 +329,18 @@ body {
   padding-left: 32px;
   padding-top: 17.71px;
 }
-.logo-client-item:hover,
-.logo-client-item:focus {
-  border: 1px solid #2196f3;
-}
 .logo-client {
   fill: #afb1b8;
 }
-.logo-client:hover,
-.logo-client:focus {
+.logo-client-item:hover .logo-client{
   fill: #2196f3;
+}
+.logo-client-item:focus .logo-client{
+  fill: #2196f3;
+}
+.logo-client-item:hover, 
+.logo-client-item:focus{
+  border: 1px solid #2196f3;
 }
 .bottom {
   background: #2f303a;
