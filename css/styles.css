@@ -61,7 +61,7 @@ body {
   margin-left: auto;
   align-items: center;
 }
-.envelope-plus-contakt{
+.envelope-plus-contakt {
   list-style: none;
   margin-top: 0;
   margin-bottom: 0;
@@ -71,7 +71,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.smartphon-plus-contakt{
+.smartphon-plus-contakt {
   list-style: none;
   margin-top: 0;
   margin-bottom: 0;
@@ -89,38 +89,34 @@ body {
   letter-spacing: 0.02em;
   line-height: 1.1;
 }
-.envelope-smartphon{
+.envelope-smartphon {
   fill: #757575;
 }
-.envelope-plus-contakt:hover .top-contact-item{
+.envelope-plus-contakt:hover .top-contact-item {
+  color: #2196f3;
+}
+.envelope-plus-contakt:hover .envelope-smartphon {
+  fill: #2196f3;
+}
+.envelope-plus-contakt:focus .top-contact-item {
+  color: #2196f3;
+}
+.envelope-plus-contakt:focus .envelope-smartphon {
+  fill: #2196f3;
+}
+.smartphon-plus-contakt:hover .top-contact-item {
   fill: #2196f3;
   color: #2196f3;
 }
-.envelope-plus-contakt:hover .envelope-smartphon{
+.smartphon-plus-contakt:hover .envelope-smartphon {
   fill: #2196f3;
   color: #2196f3;
 }
-.envelope-plus-contakt:focus .top-contact-item{
+.smartphon-plus-contakt:focus .top-contact-item {
   fill: #2196f3;
   color: #2196f3;
 }
-.envelope-plus-contakt:focus .envelope-smartphon{
-  fill: #2196f3;
-  color: #2196f3;
-}
-.smartphon-plus-contakt:hover .top-contact-item{
-  fill: #2196f3;
-  color: #2196f3;
-}
-.smartphon-plus-contakt:hover .envelope-smartphon{
-  fill: #2196f3;
-  color: #2196f3;
-}
-.smartphon-plus-contakt:focus .top-contact-item{
-  fill: #2196f3;
-  color: #2196f3;
-}
-.smartphon-plus-contakt:focus .envelope-smartphon{
+.smartphon-plus-contakt:focus .envelope-smartphon {
   fill: #2196f3;
   color: #2196f3;
 }
@@ -179,11 +175,11 @@ body {
 .logo-office-item {
   width: 270px;
   height: 120px;
-  border: 1px solid #F5F4FA;
+  border: 1px solid #f5f4fa;
   border-radius: 4px;
   padding-left: 100px;
   padding-top: 25px;
-  background: #F5F4FA;
+  background: #f5f4fa;
 }
 .descriptions-list {
   list-style: none;
@@ -290,19 +286,19 @@ body {
   padding-left: 11px;
   padding-top: 11px;
 }
-.teamcard-icon-item:hover .icon-teamcard{
-  fill: #FFFFFF;
+.teamcard-icon-item:hover .icon-teamcard {
+  fill: #ffffff;
 }
-.teamcard-icon-item:focus .icon-teamcard{
-  fill: #FFFFFF;
+.teamcard-icon-item:focus .icon-teamcard {
+  fill: #ffffff;
 }
 .icon-teamcard {
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
 .teamcard-icon-item:hover,
 .teamcard-icon-item:focus {
-  border: 1px solid #2196F3;
-  background-color: #2196F3;
+  border: 1px solid #2196f3;
+  background-color: #2196f3;
 }
 .client-title {
   font-size: 36px;
@@ -332,14 +328,14 @@ body {
 .logo-client {
   fill: #afb1b8;
 }
-.logo-client-item:hover .logo-client{
+.logo-client-item:hover .logo-client {
   fill: #2196f3;
 }
-.logo-client-item:focus .logo-client{
+.logo-client-item:focus .logo-client {
   fill: #2196f3;
 }
-.logo-client-item:hover, 
-.logo-client-item:focus{
+.logo-client-item:hover,
+.logo-client-item:focus {
   border: 1px solid #2196f3;
 }
 .bottom {
@@ -347,10 +343,10 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.bottom-container{
+.bottom-container {
   display: flex;
 }
-.bottom-contacts-container{
+.bottom-contacts-container {
   margin-right: 70px;
 }
 .bottom-logo {
@@ -391,15 +387,15 @@ body {
 .bottom.contact-item:focus {
   color: #2196f3;
 }
-.coment{
+.coment {
   font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #FFFFFF;
-margin-bottom: 20px;
-margin-top: 12px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+  margin-top: 12px;
 }
 .bottom-icons-list {
   list-style: none;
@@ -421,11 +417,11 @@ margin-top: 12px;
 }
 .bottom-icon-item:hover,
 .bottom-icon-item:focus {
-  border: 1px solid #2196F3;
-  background-color: #2196F3;
+  border: 1px solid #2196f3;
+  background-color: #2196f3;
 }
 .icon-bottom {
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 .button-list {
   list-style: none;
