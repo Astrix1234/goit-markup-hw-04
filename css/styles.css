@@ -56,10 +56,30 @@ body {
   margin-bottom: 0;
   padding: 0;
   display: flex;
-  margin-right: 0;
-  width: 295px;
+  width: 321px;
   justify-content: space-between;
   margin-left: auto;
+  align-items: center;
+}
+.envelope-plus-contakt{
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  display: flex;
+  width: 161px;
+  justify-content: space-between;
+  align-items: center;
+}
+.smartphon-plus-contakt{
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  display: flex;
+  width: 130px;
+  justify-content: space-between;
+  align-items: center;
 }
 .top-contact-item {
   text-decoration-line: none;
@@ -72,6 +92,12 @@ body {
 .top-contact-item:hover,
 .top.contact-item:focus {
   color: #2196f3;
+}
+.envelope-smartphon{
+  fill: #757575;
+}
+.envelope-smartphon:hover, .envelope-smartphon:focus{
+  fill: #2196f3;
 }
 .mainpage-title {
   text-align: center;
@@ -116,6 +142,23 @@ body {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.logos-office-list {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding: 0;
+  display: flex;
+  gap: 40px;
+}
+.logo-office-item {
+  width: 270px;
+  height: 120px;
+  border: 1px solid #F5F4FA;
+  border-radius: 4px;
+  padding-left: 100px;
+  padding-top: 25px;
+  background: #F5F4FA;
 }
 .descriptions-list {
   list-style: none;
@@ -201,8 +244,37 @@ body {
   line-height: 1.2;
   color: #757575;
   margin-top: 10px;
-  margin-bottom: 0;
+  margin-bottom: 16px;
   text-align: center;
+}
+.teamcard-icons-list {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.teamcard-icon-item {
+  width: 44px;
+  height: 44px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+  padding-left: 11px;
+  padding-top: 11px;
+}
+.teamcard-icon-item:hover,
+.teamcard-icon-item:focus {
+  border: 1px solid #2196F3;
+  background-color: #2196F3;
+}
+.icon-teamcard {
+  fill: #AFB1B8;
+}
+.icon-teamcard:hover, .icon-teamcard:focus{
+  fill: #FFFFFF;
 }
 .client-title {
   font-size: 36px;
@@ -212,21 +284,44 @@ body {
   margin-top: 0;
   margin-bottom: 50;
 }
+.logos-client-list {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  display: flex;
+  gap: 36px;
+}
 .logo-client-item {
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   cursor: pointer;
+  padding-left: 32px;
+  padding-top: 17.71px;
 }
 .logo-client-item:hover,
 .logo-client-item:focus {
   border: 1px solid #2196f3;
 }
+.logo-client {
+  fill: #afb1b8;
+}
+.logo-client:hover,
+.logo-client:focus {
+  fill: #2196f3;
+}
 .bottom {
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.bottom-container{
+  display: flex;
+}
+.bottom-contacts-container{
+  margin-right: 70px;
 }
 .bottom-logo {
   font-family: 'Raleway', sans-serif;
@@ -266,6 +361,42 @@ body {
 .bottom.contact-item:focus {
   color: #2196f3;
 }
+.coment{
+  font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 20px;
+margin-top: 12px;
+}
+.bottom-icons-list {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+.bottom-icon-item {
+  width: 44px;
+  height: 44px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  padding-left: 11px;
+  padding-top: 11px;
+}
+.bottom-icon-item:hover,
+.bottom-icon-item:focus {
+  border: 1px solid #2196F3;
+  background-color: #2196F3;
+}
+.icon-bottom {
+  fill: #FFFFFF;
+}
 .button-list {
   list-style: none;
   margin-top: 0;
@@ -291,6 +422,8 @@ body {
 .button-item:focus {
   background-color: #2196f3;
   color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .presentations-list {
   list-style: none;
@@ -303,7 +436,12 @@ body {
 }
 .prestentation-item {
   margin: 0;
-  padding-bottom: 20px;
+  cursor: pointer;
+}
+.prestentation-item:hover,
+.prestentation-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .bordered {
   border: 1px solid #eeeeee;
@@ -314,6 +452,7 @@ body {
   letter-spacing: 0.06em;
   margin-top: 20px;
   margin-bottom: 0;
+  margin-left: 24px;
 }
 .description-portfoliopicture {
   font-size: 16px;
@@ -321,5 +460,6 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
   margin-top: 4px;
-  margin-bottom: 0;
+  margin-bottom: 20px;
+  margin-left: 24px;
 }
