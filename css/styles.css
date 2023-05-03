@@ -92,33 +92,21 @@ body {
 .envelope-smartphon {
   fill: #757575;
 }
-.envelope-plus-contakt:hover .top-contact-item {
-  color: #2196f3;
-}
-.envelope-plus-contakt:hover .envelope-smartphon {
-  fill: #2196f3;
-}
+.envelope-plus-contakt:hover .top-contact-item,
 .envelope-plus-contakt:focus .top-contact-item {
   color: #2196f3;
 }
+.envelope-plus-contakt:hover .envelope-smartphon,
 .envelope-plus-contakt:focus .envelope-smartphon {
   fill: #2196f3;
 }
-.smartphon-plus-contakt:hover .top-contact-item {
-  fill: #2196f3;
-  color: #2196f3;
-}
-.smartphon-plus-contakt:hover .envelope-smartphon {
-  fill: #2196f3;
-  color: #2196f3;
-}
+.smartphon-plus-contakt:hover .top-contact-item,
 .smartphon-plus-contakt:focus .top-contact-item {
-  fill: #2196f3;
   color: #2196f3;
 }
+.smartphon-plus-contakt:hover .envelope-smartphon,
 .smartphon-plus-contakt:focus .envelope-smartphon {
   fill: #2196f3;
-  color: #2196f3;
 }
 .mainpage-title {
   text-align: center;
@@ -286,9 +274,7 @@ body {
   padding-left: 11px;
   padding-top: 11px;
 }
-.teamcard-icon-item:hover .icon-teamcard {
-  fill: #ffffff;
-}
+.teamcard-icon-item:hover .icon-teamcard,
 .teamcard-icon-item:focus .icon-teamcard {
   fill: #ffffff;
 }
@@ -328,9 +314,7 @@ body {
 .logo-client {
   fill: #afb1b8;
 }
-.logo-client-item:hover .logo-client {
-  fill: #2196f3;
-}
+.logo-client-item:hover .logo-client,
 .logo-client-item:focus .logo-client {
   fill: #2196f3;
 }
