@@ -62,20 +62,12 @@ body {
   align-items: center;
 }
 .envelope-plus-contakt {
-  list-style: none;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 0;
   display: flex;
   width: 161px;
   justify-content: space-between;
   align-items: center;
 }
 .smartphon-plus-contakt {
-  list-style: none;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 0;
   display: flex;
   width: 130px;
   justify-content: space-between;
